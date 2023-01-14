@@ -1,0 +1,113 @@
+body {
+    background: #478E60;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.wrapper-main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.line-block-fauna,
+.line-block-flora {
+    width: 680px;
+    height: 56px;
+
+    margin: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background: #83C082;
+    border-radius: 10px;
+}
+
+.wrapper-flora-list {
+    width: 95vw;
+    height: 30vh;
+    display: flex;
+    justify-content: end;
+}
+
+img {
+    width: 197px;
+    height: 206px;
+}
+
+.wrapper-fauna-section,
+.wrapper-flora-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 70px;
+}
+
+footer {
+    width: 1000px;
+    height: 124px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background: #2C5830;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.logo-bottom {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 59px;
+
+    letter-spacing: 0.08em;
+    text-align: center;
+
+    margin: 0px;
+
+    color: #ffffff;
+}
+
+.btns{
+    width: 178px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #478E60;
+    border-radius: 10px;
+
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 39px;
+
+    letter-spacing: 0.08em;
+
+    color: #FFFFFF;
+}
+
+.wrapper-btns{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.wrapper-list-fauna,
+.wrapper-list-flora{
+    overflow: scroll;
+    height: 30vh;
+}
+

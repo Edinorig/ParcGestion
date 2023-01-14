@@ -1,0 +1,31 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: #478E60;
+}
+
+
+.background {
+
+    background: url('../../common/img/FloraPage.svg');
+    height: 100%;
+
+    background-position: bottom right;
+    background-repeat: no-repeat;
+
+    background-size: contain;
+}
+
+
+.wrapper-header-main-content {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+
+/* font-family: 'JetBrains Mono', monospace; */
+
+input {
+    border-style: none;
+    outline: none;
+
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 39px;
+
+    letter-spacing: 0.08em;
+
+    color: #FFFFFF;
+
+
+
+}
+
+.logo {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 59px;
+
+    letter-spacing: 0.08em;
+    text-align: center;
+
+    color: #ffffff;
+}
+
+.insert-text {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: 0.08em;
+
+    color: #FFFFFF;
+}
+
+
+
+/* -------------------------------------------------Hovers-------------------------------------------------- */

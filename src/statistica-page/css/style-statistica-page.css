@@ -1,0 +1,32 @@
+body {
+    background: #478E60;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapper-reggion {
+    width: 480px;
+    height: 56px;
+
+    background: #83C082;
+    border-radius: 10px;
+
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 10px;
+
+    cursor: pointer;
+
+
+    color: #000000;
+}

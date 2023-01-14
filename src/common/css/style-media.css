@@ -1,0 +1,63 @@
+@media only screen and (max-width: 1500px) {
+    .btn {
+        width: 200px;
+        height: 55px;
+    
+        background: rgba(105, 105, 105, 0.7);
+        border-radius: 50px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        cursor: pointer;
+    
+        font-family: 'Inika';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 42px;
+        /* identical to box height */
+    
+    
+        color: #FFFFFF;
+    }
+
+    .logo {
+        font-family: 'Inika';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 59px;
+        letter-spacing: 0.08em;
+        text-align: center;
+        color: #ffffff;
+    }
+
+
+    /* -------------------Hovers------------------------ */
+
+    .btn:hover {
+        width: 200px;
+        height: 55px;
+    
+        background: rgb(255, 255, 255);
+        border-radius: 50px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        cursor: pointer;
+    
+        font-family: 'Inika';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 42px;
+        /* identical to box height */
+    
+    
+        color: rgba(105, 105, 105, 0.7);
+    }
+  }

@@ -1,0 +1,87 @@
+.background {
+
+    background-image: url('../../common/img/Main-page.svg');
+
+    height: 100vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgba(105, 105, 105, 0.7);
+}
+
+.wrapper-main-content {
+    width: 100%;
+    height: 75%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 60px;
+}
+
+.wrapper-buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    width: 40%;
+}
+
+.btn {
+    width: 253px;
+    height: 105px;
+
+    background: rgba(105, 105, 105, 0.7);
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.btn:hover {
+    width: 253px;
+    height: 105px;
+
+    background: rgb(255, 255, 255);
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    /* identical to box height */
+
+
+    color: rgba(105, 105, 105, 0.7);
+}
